@@ -31,26 +31,18 @@ def main():
   else:
     print("Blue is the most popular favorite color, but " + color + " is my favorite too.")
   emotion = input("How are you feeling today " + name +"?")
-
-
-  name = input("What is your name? ")
-  print("Hello there " + name + " my name is chatbot!")
-
-
-
-
-
-  color = input("What is your favorite color? ")
-  if color == "Blue":
-    print(" You have the most popular favorote color!")
+  emotion
+  year = int(input("What year are you born? "))
+  if year >= 1995:
+     print("You are apart of generation Z!")
   else:
-    print("Blue is the most popular favorite color, but " + color + " is my favorite too.")
-
-
-  emotion = input("How are you doing today " + name +"?")
+    print("You are not apart of generation Z. Which means you are older than the age of 26!")
 
 if __name__ == "__main__":
   main()
   t = input("Run pytest? (y/n)").lower()
   if t == 'y':
     run_tests()
+
+
+
