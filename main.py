@@ -31,7 +31,12 @@ def main():
   else:
     print("Blue is the most popular favorite color, but " + color + " is my favorite too.")
   emotion = input("How are you feeling today " + name +"?")
-  emotion
+  if emotion == "good":
+    print("That's great to hear!")
+  elif emotion == "bad":
+    print("I'm sorry to hear that")
+  else: 
+    print("Oh ok")
   year = int(input("What year are you born? "))
   if year >= 1995:
      print("You are apart of generation Z!")
