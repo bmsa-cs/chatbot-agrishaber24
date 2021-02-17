@@ -36,12 +36,26 @@ def main():
   elif emotion == "bad":
     print("I'm sorry to hear that")
   else: 
-    print("Oh ok")
+    print("Oh ok, well I am doing botty today.")
+  
+  siblings = int(input("How many siblings do you have?"))
+  if siblings == "0":
+    print("You are an only child!")
+  elif siblings > 0:
+    print("You are not an only child!")
   year = int(input("What year are you born? "))
   if year >= 1995:
      print("You are apart of generation Z!")
   else:
     print("You are not apart of generation Z. Which means you are older than the age of 26!")
+  
+    
+
+  animal = input("What is your favorite animal?: ")
+  animal_reaction = ["Wow, I love that animal!", "Wow thats a really cool animal. My favorite is a gorrila.","That's awesome!", "Oh wow, my favorite animal is a gorilla!", "How cool!"]
+  print(random.choice(animal_reaction))
+  animal 
+  
 
 if __name__ == "__main__":
   main()
